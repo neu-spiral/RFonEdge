@@ -15,10 +15,10 @@ yaml-0.1.7
 ## Experiments
 main.py for main program.
 
-testers.py for quick checking of the sparsity and do some other stuff
+testers.py for quick checking of the sparsity.
 
-flops.py for quick checking of FLOPS
+flops.py for quick checking of model FLOPS.
 
-profile/config_*.yaml template of the configuration file. One for each pruning ratio.
+profile/config*.yaml template the configuration files. Each represents a resulting pruning ratio.
 
-run.sh templates script for running the code.
+run.sh templates an example script for running the code.
